@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+body{
+    font-family: 'Poppins';
+    background-color: #2096ba;
+    margin: 20px 20px;
+}
+
+#title{
+    text-align: center;
+    font-size: 45px;
+    color: #e25f70;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#form input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: 3px solid grey;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#form button{
+    width: 70px;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#form button:hover{
+    cursor: pointer;
+    background-color: #e25f70;
+    transition-duration: 0.5s;
+}
+
+#filter{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+#filter button{
+    width: 150px;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#todolist{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: solid gainsboro;
+    margin: auto 300px;
+    background-color: white;
+}
+
+#check{
+    margin-top: 10px;
+    width: 30px;
+    height: 20px;
+}
+
+#edit input{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: auto;
+    height: 20px;
+}
+
+#edit button{
+    width: auto;
+    height: 26px;
+}
+
+#listTodo{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    border: none;
+    margin: 10px 10px;
+    height: 25px;
+}
+
+#listTodo span{
+    font-size: 16px;
+}
+
+.buttonlist{
+    height: 25px;
+    width: 80px;
+    margin: auto 2px;
+    background-color: #454545;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px){
+    #todolist{
+        margin: auto 200px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 900px){
+    #todolist{
+        margin: auto 30px;
+    }  
+}
+
+@media screen and (max-width:720px){
+    #todolist{
+        margin: auto 5px;
+    }   
+}
